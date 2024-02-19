@@ -25,15 +25,17 @@
         <div class="contenedor_menu">
           <nav class="menu">
             <a class="menu-enlace" href="#">Home</a>
-            <a class="menu-enlace" href="#">Nosotros</a>
-            <a class="menu-enlace" href="#"> Servicios</a>
-            <a class="menu-enlace" href="#"> Productos</a>
+            <a class="menu-enlace" href="#nosotros">Nosotros</a>
+            <a class="menu-enlace" href="#servicios"> Servicios</a>
+            <a class="menu-enlace" href="#productos"> Productos</a>
           </nav>
         </div>
       </div>
     </header>
 
-    <section class="seccion_nosotros">
+    <section id="nosotros" class="seccion_nosotros">
+      <a href="" class="btn-whats"><img src="./img/iconosRedes/whatsapp.png" alt=""></a>
+      
       <div class="container_nosotros">
         <div class="contenedor_nosotros">
           <div class="texto_nosotros">
@@ -64,7 +66,7 @@
     </section>
 
     <main>
-      <section class="seccion_servicios">
+      <section id="servicios" class="seccion_servicios">
         <div>
           <div class="contenedor_servicios">
             <div class="servicio">
@@ -91,10 +93,10 @@
         </div>
       </section>
 
-      <section class="seccion-productos">
+      <section id="productos" class="seccion-productos">
         <div class="container">
           <h2>Productos</h2>
-          <div class="contenedor-productos">
+          <div class="contenedor_productos">
             <div class="producto">
               <img src="./img/Memoria-RAM-1.png" alt="" />
               <div>
@@ -152,48 +154,26 @@
     </main>
 
     <footer>
-      <div class="container">
-        <div>
+      <div class="section_footer">
+        <div class="info_container">
           <h4>Info Contacto</h4>
-          <ul>
-            <li><i class="fa-solid fa-square-phone"></i> +11 1234 1234</li>
-            <li><i class="fa-solid fa-envelope"></i> info@dominio.com.ar</li>
-            <li>
-              <i class="fa-solid fa-map-location-dot"></i> Av. Libertador 334
-            </li>
-          </ul>
+            <a href=""><img src="./img/iconosRedes/whatsapp.png" alt=""> +11 1234 1234</a>
+            <a href=""><img src="./img/iconosRedes/gmail.png" alt=""> info@dominio.com.ar</a>
+            <a href=""><img src="./img/iconosRedes/mapa.png" alt=""> Av. Libertador 334</a>
         </div>
-
-        <div>
+        <div class="redes_container">
+          <h4>Redes</h4>
+          <div class="redes">
+            <a href=""><img src="./img/iconosRedes/facebook.png" alt=""></a>
+            <a href=""><img src="./img/iconosRedes/instagram.png" alt=""></a>
+            <a href=""><img src="./img/iconosRedes/x.png" alt=""></a>
+          </div>
+        </div>
+        <div class="copy_section">
           <p>Copyright © 2023. Todos los derechos reservados</p>
         </div>
-
-        <div>
-          <h4>Redes</h4>
-          <ul>
-            <li>
-              <a href="" target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com" target="_blank"
-                ><i class="fa-brands fa-square-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a href="" target="_blank"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a href="" target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
       </div>
+      
     </footer>
   </body>
 </html>
